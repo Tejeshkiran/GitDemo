@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="loginerror"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="TestPac.testcomponents.Listners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/KiranTT/IdeaProjects/Practice-Framework-3">
+        <classes>
+            <class name="TestPac.tests.End2End"></class>
+            <class name="TestPac.tests.ErrorValidations"></class>
+        </classes>
+    </test>
+</suite>
